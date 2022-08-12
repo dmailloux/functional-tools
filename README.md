@@ -1,6 +1,6 @@
 # Functional Tools
 
-Fully typed utility functions to write code in a more functional style in Typescript.
+Fully typed utility functions to write Typescript in a more functional style
 
 ## Installation
 
