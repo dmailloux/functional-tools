@@ -13,6 +13,8 @@ Fully typed utility functions to write code in a more functional style in Typesc
 ### Pipeline Function
 
 ```ts
+import { pipeline } from "functional-tools";
+
 const append = (x: string) => (y: string) => y + x;
 
 const capitalize = (x: string) => x.toUpperCase();
