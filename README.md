@@ -21,7 +21,12 @@ const capitalize = (x: string) => x.toUpperCase();
 
 const removeWhitespace = (x: string) => x.replace(/ /g, "");
 
-const helloWorld = pipeline("  hello", append(", world! "), capitalize, removeWhitespace);
+const helloWorld = pipeline(
+    "  hello",
+    append(", world! "),
+    capitalize,
+    removeWhitespace
+);
 
 console.log(helloWorld);
 // "HELLO,WORLD!"
