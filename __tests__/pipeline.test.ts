@@ -1,4 +1,4 @@
-import { pipeline } from "../src/pipe";
+import { pipeline } from "../src/pipeline";
 
 describe("on strings", () => {
   const capitalize = (x: string) => x.toUpperCase();
