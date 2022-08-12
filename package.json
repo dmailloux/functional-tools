@@ -21,6 +21,9 @@
     "tools",
     "fp"
   ],
+  "repository": {
+    "url": "https://github.com/dmailloux/functional-tools"
+  },
   "author": "dmailloux",
   "license": "MIT",
   "devDependencies": {
