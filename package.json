@@ -1,6 +1,6 @@
 {
   "name": "functional-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Fully typed utility functions to write code in a more functional style in Typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,8 @@
     "functional",
     "utils",
     "tools",
-    "fp"
+    "fp",
+    "functional programming"
   ],
   "repository": {
     "url": "https://github.com/dmailloux/functional-tools"
