@@ -1,6 +1,6 @@
 {
   "name": "functional-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fully typed utility functions to write code in a more functional style in Typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
