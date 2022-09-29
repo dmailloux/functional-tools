@@ -14,6 +14,21 @@ yarn add functional-tools
 
 ## Basic Example
 
+## Evaluate
+
+```ts
+import { evaluate } from "./evaluate";
+
+const startsWithH = (x: string) => x[0] === "h";
+
+const hasAComma = (x: string) => x.includes(",");
+
+const result = evaluate("hello, world", startsWithH, hasAComma);
+
+console.log(result);
+// true
+```
+
 ### Pipeline Function
 
 ```ts
