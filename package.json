@@ -1,6 +1,6 @@
 {
   "name": "functional-tools",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Fully typed utility functions to write Typescript in a more functional style",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,11 +10,7 @@
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
     "test-watch": "jest --config jestconfig.json --watch",
-    "test-coverage": "jest --config jestconfig.json --coverage",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format"
+    "test-coverage": "jest --config jestconfig.json --coverage"
   },
   "keywords": [
     "functional",
